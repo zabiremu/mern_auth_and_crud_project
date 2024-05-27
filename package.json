@@ -1,0 +1,28 @@
+{
+  "name": "mern_auth_and_crud_project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabiremu/mern_auth_and_crud_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabiremu/mern_auth_and_crud_project/issues"
+  },
+  "homepage": "https://github.com/zabiremu/mern_auth_and_crud_project#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1"
+  }
+}
